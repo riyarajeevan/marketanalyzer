@@ -170,6 +170,38 @@ st.markdown("""
         border: 1px solid #9984D4;
         border-radius: 6px;
     }
+    
+    button[title="View sidebar"] {
+        display: none;
+    }
+    
+    [data-testid="collapsedControl"] {
+        display: none;
+    }
+    
+    [data-testid="stDecoration"] {
+        display: none;
+    }
+    
+    .stDeployButton {
+        display: none;
+    }
+    
+    #MainMenu {
+        visibility: hidden;
+    }
+    
+    footer {
+        visibility: hidden;
+    }
+    
+    header {
+        visibility: hidden;
+    }
+    
+    [data-testid="stToolbar"] {
+        display: none;
+    }
 </style>
 """, unsafe_allow_html=True)
 
